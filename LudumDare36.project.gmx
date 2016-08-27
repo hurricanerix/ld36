@@ -8,13 +8,38 @@
   <sprites name="sprites">
     <sprites name="menu">
       <sprite>sprites\spr_start</sprite>
+      <sprite>sprites\sprite11</sprite>
+    </sprites>
+    <sprites name="game">
+      <sprite>sprites\spr_cloud1</sprite>
+      <sprite>sprites\spr_tree1</sprite>
+      <sprite>sprites\spr_tree2</sprite>
+      <sprite>sprites\spr_ground</sprite>
+      <sprite>sprites\spr_dirt</sprite>
+      <sprite>sprites\spr_torch</sprite>
+      <sprite>sprites\spr_cannon</sprite>
+      <sprite>sprites\spr_powder</sprite>
+      <sprite>sprites\spr_cannonball</sprite>
     </sprites>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\back_menu</background>
+  </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
     <objects name="menu">
       <object>objects\obj_start</object>
+    </objects>
+    <objects name="game">
+      <object>objects\obj_cloud</object>
+      <object>objects\obj_tree1</object>
+      <object>objects\obj_tree2</object>
+      <object>objects\obj_ground</object>
+      <object>objects\obj_dirt</object>
+      <object>objects\obj_torch</object>
+      <object>objects\obj_cannon</object>
+      <object>objects\obj_powder</object>
+      <object>objects\obj_cannonball</object>
     </objects>
   </objects>
   <rooms name="rooms">
